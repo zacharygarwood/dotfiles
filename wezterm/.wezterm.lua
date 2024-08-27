@@ -1,0 +1,1 @@
+/mnt/c/Users/Zachary/.wezterm.lua
