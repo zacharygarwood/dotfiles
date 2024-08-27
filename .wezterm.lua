@@ -1,1 +1,0 @@
-/home/zachary/.wezterm.lua
