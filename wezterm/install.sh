@@ -5,9 +5,11 @@ WEZTERM_CONFIG=".wezterm.lua"
 INSTALL_LOCATION="$HOME/$WEZTERM_CONFIG"
 WEZTERM="wezterm"
 
+echo "[$WEZTERM] Starting install..."
+
 if [ ! -f "$INSTALL_LOCATION" ]; then
     echo "[$WEZTERM] Creating symlink to $INSTALL_LOCATION"
     ln -s "$CURRENT_DIR/$WEZTERM_CONFIG" "$INSTALL_LOCATION"
-else
-    echo "[$WEZTERM] $INSTALL_LOCATION already exists skipping"
 fi
+
+echo "[$WEZTERM] Done <]:)"
