@@ -8,7 +8,9 @@ local config = wezterm.config_builder()
 config.default_domain = 'WSL:Ubuntu'
 
 -- This is where you actually apply your config choices
-
+config.keys = {
+    { key = 'V', mods = 'CTRL', action = act.PasteFrom 'Clipboard' },
+}
 -- Make the terminal *fancy* 
 config.color_scheme = 'Kanagawa Dragon (Gogh)'
 config.window_decorations = "RESIZE"
