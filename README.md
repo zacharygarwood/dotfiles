@@ -1,2 +1,3 @@
 # dotfiles
-This ^ always makes me think of Dippin' Dots lol
+- [wezterm](https://wezfurlong.org/wezterm/index.html)
+- [neovim](https://neovim.io/)
