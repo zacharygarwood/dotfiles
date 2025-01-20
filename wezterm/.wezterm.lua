@@ -13,9 +13,12 @@ config.keys = {
 	{ key = "V", mods = "CTRL", action = act.PasteFrom("Clipboard") },
 }
 -- Make the terminal *fancy*
-config.color_scheme = "Kanagawa Dragon (Gogh)"
+config.color_scheme = "Kanagawa (Gogh)"
 config.window_decorations = "RESIZE"
 config.enable_tab_bar = false
+
+-- Disabling ligatures
+config.harfbuzz_features = { "calt=0", "clig=0", "liga=0" }
 
 -- and finally, return the configuration to wezterm
 return config
